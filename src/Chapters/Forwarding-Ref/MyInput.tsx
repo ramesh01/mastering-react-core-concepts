@@ -12,6 +12,7 @@ const MyInput: FC<InputProps> = forwardRef((props, inputref) => {
     props.changehandler(e);
   }
 
+
   return (
     <>
       <label className="block">{label}</label>
