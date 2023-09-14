@@ -6,7 +6,7 @@ type InputProps = {
   isRequired: boolean;
   ref: any
 }
-const FormField: FC<InputProps> = forwardRef(function FormField({ label, isRequired }, ref) {
+const FormField: FC<InputProps> = forwardRef(({ label, isRequired }, ref) => {
   const [value, setValue] = useState('');
   return (
     <>

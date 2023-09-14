@@ -4,8 +4,12 @@ export const chaptersList = [
         route: 'intro'
     },
     {
-        name: 'Forwarding-ref',
-        route: 'forwarding-ref'
+        name: 'Components in react',
+        route: 'components'
+    },
+    {
+        name: 'virtual Dom',
+        route: 'v-dom'
     },
     {
         name: 'Props & State',
@@ -14,5 +18,13 @@ export const chaptersList = [
     {
         name: 'React Portal',
         route: 'protals'
+    },
+    {
+        name: 'Higher order components',
+        route: 'Hoc'
+    },
+    {
+        name: 'Props Drilling',
+        route: 'props-drilling'
     }
 ];
